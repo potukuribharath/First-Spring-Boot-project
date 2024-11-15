@@ -11,7 +11,7 @@ public class Student {
 	
 	@Id
 	private int id;
-	@Column(name="Std_nsame")
+	@Column(name="Std_name")
 	private String student_name;
 	@Column(name="std_data")
 	private String student_data;
