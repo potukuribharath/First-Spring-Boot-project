@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.Student;
+import com.example.demo.Model.Student;
 import com.example.demo.Repository.Student_Repo;
 @Service
 public class StudentServiceImpl implements Student_Service{
